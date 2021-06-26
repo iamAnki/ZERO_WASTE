@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>How to reduce food waste</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1">
+    <link rel="stylesheet" href="../mystyle.css">
+    <link rel="stylesheet" href="../css/articles.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hkk4iif.css">
+    <script src="https://kit.fontawesome.com/11b9e02d1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Burger menu starts-->
+    <header>
+        <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+        <nav class="navigation_container">
+           
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <div class="menu navbar">
+                <div class="dropdown">
+                    <a href="../index.html" class="nav_link">HOME</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./customer.html" class="nav_link">HISTORY</a>
+                </div>
+
+<div class="dropdown">
+                    <a href="./userlogin.html" class="nav_link">LOGIN</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./kitchen.html" class="nav_link">KITCHEN</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./bathroom.html" class="nav_link">BATHROOM</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+
+            <ul class="mobilemenu">
+                <li><a href="../index.html" class="nav_link">HOME</a></li>
+                <li><a href="./customers.html" class="nav_link">HISTORY</a></li>
+                <li><a href="./kitchen.html" class="nav_link">KITCHEN</a></li>
+                <li><a href="./bathroom.html" class="nav_link">BATHROOM</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Burger menu ends-->
+
+<!--Notification button-->
+    <button onclick="document.getElementById('modal_id').style.display='block';" class="button button5 far fa-bell"></button>
+    <div id="modal_id" class="modal animate">
+        <div class="modal_content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <h1>Newsletter</h1>
+          Stay updated!
+
+            <div class="container">
+                <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+
+            <button type="button" onclick="document.getElementById('modal_id').style.display='none';" class="gotit">SUBSCRIBE</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('modal_id').style.display = 'block';
+
+    </script>
+    <main>
+<!--Breadcurmb-->
+        <p class="underline_subpage"><span class="breadcrumb">
+                <a href="./kitchen.html" class="breadcrumb_link">Kitchen</a> &gt; How to reduce food waste
+            </span>
+        </p>
+<!--Part with photo and opening text-->
+        <div class="headline1_container">
+
+            <img src="../media/main_food.jpg" alt="Foodie photo" class="main_image"> <!--Photo's source: https://pixabay.com/-->
+
+            <div class="head_container">
+                <h3>HOW TO REDUCE FOOD WASTE </h3>
+                <p>We throw away 7.2 million tons of food every year, and more than half of it’s perfectly edible. Meanwhile, 1 in 7 people across the world don't have enough to eat. Everyday supermarkets throw away lots of food which expiration dates ended. Meanwhile, that food is still edible. Food industry is one of the most dangerous factory for our environment and economy. But I guess you’re going to ask: what can we do?</p>
+                <hr>
+               
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

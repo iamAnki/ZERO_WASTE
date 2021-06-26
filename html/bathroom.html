@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bathroom</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1">
+    <link rel="stylesheet" href="../mystyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hkk4iif.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/articles.css">
+    <script src="https://kit.fontawesome.com/11b9e02d1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Burger menu start-->
+<header>
+     <nav class="navigation_container">
+        
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <div class="menu navbar">
+                <div class="dropdown">
+                    <a href="../index.html" class="nav_link">HOME</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./customer.html" class="nav_link">HISTORY</a>
+                </div>
+<div class="dropdown">
+                    <a href="./userlogin.html" class="nav_link">LOGIN</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./kitchen.html" class="nav_link">KITCHEN</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./bathroom.html" class="nav_link">BATHROOM</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+
+            <ul class="mobilemenu">
+                <li><a href="../index.html" class="nav_link">HOME</a></li>
+                <li><a href="./customer.html" class="nav_link">HISTORY</a></li>
+                <li><a href="./kitchen.html" class="nav_link">KITCHEN</a></li>
+                <li><a href="./bathroom.html" class="nav_link">BATHROOM</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Burger menu ends-->
+
+<!--Notification button-->
+    <button onclick="document.getElementById('modal_id').style.display='block';" class="button button5 far fa-bell"></button>
+    <div id="modal_id" class="modal animate">
+        <div class="modal_content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <h1>Newsletter</h1>
+           Stay updated !
+
+            <div class="container">
+                <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+
+            <button type="button" onclick="document.getElementById('modal_id').style.display='none';" class="gotit">SUBSCRIBE</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('modal_id').style.display = 'block';
+    </script>
+    <div class="wrapper">
+<!--Headline container-->
+        <section class="headline">
+            <header>
+                <h1>BATHROOM</h1>
+            </header>
+            <br>
+            <p class="headline_text">Have you ever wanted to become a little alchemy?<br>Now is your chance because we want to show you how to prepare your own eco-friendly
+cleaning and beauty products</p>
+        </section>
+<!--Articles' container starts-->
+        <div class="articles_container">
+            <div class="reducewaste_container" style="margin-bottom: 50px;">
+                <div class="whatever">
+                <a href="./bathroom_article.html"><img src="../media/cosmetic-2357981_1920.jpg" alt="Foodie" class="photo" style="float: left; margin-right: 30px;"></a> <!--Photo's source: https://pixabay.com/-->
+                    </div>
+                <section>
+                    <h3 style="margin-bottom: 30px;">MAKE YOUR OWN ECO-FRIENDLY COSMETICS</h3>
+                    <p class="paragraph">Have you ever wonder what is in your favorite body cream? Or what makes your shampoo smells like a bubble gum? No? So maybe you should because sometimes you can find there the whole periodic table. The beauty industry is thriving sales machine that brings producers a huge profit.</p>
+                    <a href="../html/bathroom_article.html" class="readmore_link" style="float: right; margin-top: 60px;">READ MORE...</a>
+                </section>
+            </div>
+
+            <div class="starterkit_container" style="margin-bottom: 30px;">
+                <div class="whatever">
+                <a href="#"><img src="../media/aloes.jpg" alt="Kitchen starter" class="photo" style="float: left; margin-right: 30px;"></a> <!--Photo's source: https://pixabay.com/-->
+                    </div>
+                <section class="article_text">
+                    <h3 style="margin-bottom: 30px;">HOME-MADE CLEANERS</h3>
+                    <p class="paragraph">Are you sick of this stinky, chemical cleaning products that cost fortune? Let me show you how to prepare 3 easy to made cleaners that won’t break the bank and will consist just few ingredients. Believe me, all of them you have in your house.</p>
+                    <a href="#" class="readmore_link" style="float: right; margin-top: 100px;">READ MORE...</a>
+                </section>
+            </div>
+
+            <div class="garden_container" style="margin-bottom: 30px;">
+                <div class="whatever">
+                <a href="#"><img src="../media/clean.jpg" alt="Greengaren" class="photo" style="float: left; margin-right: 30px;"></a> <!--Photo's source: https://pixabay.com/-->
+                    </div>
+                <section>
+                    <h3 style="margin-bottom: 30px;">10 SIMPLE (AND EFFECTIVE) WAYS TO SAVE THE WATER</h3>
+                    <p class="paragraph">In one year average American residence uses over 400 000 liters of water. Doesn’t sound like a big number for you? Okay. Approximately 4 000 000 000 liters of water are used in the United States PER DAY! Sounds terrifyingly? It should because we’re not aware of the water issue on our planet. Do you want to know more about saving the water in your house?</p>
+                    <a href="#" class="readmore_link" style="float: right; margin-top: 60px;">READ MORE...</a>
+                </section>
+            </div>
+        </div>
+<!--Articles' container ends-->
+    </div>
+</body>
+</html>

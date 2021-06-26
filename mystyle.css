@@ -1,0 +1,289 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 60px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: limegreen;
+}
+
+.some_icon {
+    margin-left: 20px;
+}
+
+.search_icon {
+    margin-left: 10px;
+}
+.logo_image {
+    max-width: 50px;
+}
+
+.video {
+    max-width: 100%;
+}
+
+.banner_container {
+    overflow: hidden;
+    max-height: 640px;
+    position: relative
+}
+
+.header_container {
+    font-family: essonnes-display, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    width: 75%;
+    background-color: white;
+    height: 22vw;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header_headline {
+    font-size: 4.5vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.header_text {
+    font-size: 1.5vw;
+    align-content: center;
+    font-family: essonnes-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.statistics_container {
+    font-family: essonnes-display, serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon {
+    color: black;
+    text-decoration: none;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.content_container {
+    padding: 200px 24px 16px 24px;
+    margin: 16px 16px 16px 16px;
+    background-color: white;
+    width: 320px;
+    text-align: center;
+}
+
+.icon_text {
+    color: black;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.articles_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-bottom: 90px;
+}
+.articles_container img {
+    transition: transform .5s ease;
+}
+
+.artcontent_container {
+    font-family: essonnes-display, serif;
+    padding: 50px 24px 16px 24px;
+    margin: 16px 16px 16px 16px;
+    background-color: white;
+    width: 450px;
+    text-align: start;
+}
+
+.article_image {
+    max-width: 100%;
+}
+
+.photo_headline {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.photo_paragraph {
+    font-size: 16px;
+    font-family: essonnes-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.readmore_link {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.readmore_link:hover {
+    color: darkgreen;
+}
+
+.nav_link {
+    display: block;
+    color: #000000;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+    font-family: essonnes-display, serif;
+}
+
+
+.navigation_container {
+    background-color: white;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    height: 53px;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.menu_item {
+    font-size: 12px;
+    padding: 5px 5px 5px 20px;
+}
+
+.wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 1140px;
+    padding: 5px;
+    font-family: essonnes-display, serif;
+}
+
+.article_photo {
+    margin-top: 100px;
+    max-width: 30%;
+}
+/*Bredcrumb*/
+.breadcrumb {
+    font-size: 16px;
+    color: black;
+    font-family: essonnes-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.breadcrumb_link {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb_link:hover {
+    text-decoration: underline;
+    color: limegreen;
+}
+
+.underline_subpage {
+    padding: 5px 5px 1px 5px;
+    color: white;
+    background-color: white;
+    float: right;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+/*Newsletter on main page*/
+form {
+    margin: 15px;
+}
+
+/* Styling newsletter's container */
+.container {
+    padding: 20px;
+    background-color: #1d2d08;
+    color: white;
+    font-family: essonnes-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Styling the input elements and the button */
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #e8eae6;
+    box-sizing: border-box;
+    font-family: essonnes-display, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Styling the submit button */
+input[type=submit] {
+    background-color: #334220;
+    color: white;
+    border: none;
+    font-family: essonnes-display, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header_container {
+        height: 30vw;
+    }
+    .header_headline {
+        margin-top: 30px;
+    }
+    .readmore_link {
+
+    }
+}

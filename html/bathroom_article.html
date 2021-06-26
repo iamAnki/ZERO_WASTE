@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Make your own cosmetics</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1">
+    <link rel="stylesheet" href="../mystyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hkk4iif.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/articles.css">
+    <script src="https://kit.fontawesome.com/11b9e02d1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Burger menu starts-->
+    <header>
+        <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+        <nav class="navigation_container">
+           
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <div class="menu navbar">
+                <div class="dropdown">
+                    <a href="../index.html" class="nav_link">HOME</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./customer.html" class="nav_link">HISTORY</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./kitchen.html" class="nav_link">KITCHEN</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./bathroom.html" class="nav_link">BATHROOM</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+
+            <ul class="mobilemenu">
+                <li><a href="../index.html" class="nav_link">HOME</a></li>
+                <li><a href="./customers.html" class="nav_link">HISTORY</a></li>
+				 <li><a href="./userlogin.html" class="nav_link">LOGIN</a></li>
+                <li><a href="./kitchen.html" class="nav_link">KITCHEN</a></li>
+                <li><a href="./bathroom.html" class="nav_link">BATHROOM</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--Burger menu ends-->
+
+<!--Notification button-->
+    <button onclick="document.getElementById('modal_id').style.display='block';" class="button button5 far fa-bell"></button>
+    <div id="modal_id" class="modal animate">
+        <div class="modal_content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <h1>Newsletter</h1>
+            Stay updated !
+
+            <div class="container">
+                <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+
+            <button type="button" onclick="document.getElementById('modal_id').style.display='none';" class="gotit">SUBSCRIBE</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('modal_id').style.display = 'block';
+    </script>
+    <!--<script>
+    var buttonanimation = document.getElementById('modal_id');
+    var secondanimation = buttonanimation.getBoundingClientRect().top;
+        var screenPosition = window.innerHeight / 1.3;
+        if (secondanimation < screenPosition) {
+            buttonanimation.display.block;
+        }
+        window.addEventListener('scroll', scrollDown);
+    </script>-->
+    <main>
+<!--Breadcurmb-->
+        <p class="underline_subpage"><span class="breadcrumb">
+                <a href="./bathroom.html" class="breadcrumb_link">Bathroom</a> &gt; Make your cosmetics
+            </span>
+        </p>
+<!--Part with photo and opening text-->
+        <div class="headline1_container">
+
+            <img src="../media/main_cosmetics.jpg" alt="Wax photo" class="main_image"> <!--Photo's source: https://pixabay.com/-->
+
+            <div class="head_container">
+                <h3>MAKE YOUR OWN ECO-FRIENDLY COSMETICS</h3>
+                <p>Have you ever wonder what is in your favorite body cream? Or what makes your shampoo smells like a bubble gum? No? So maybe you should because sometimes you can find there the whole periodic table. The beauty industry is thriving sales machine that brings producers a huge profit. We’re not better: we can spend a fortune on tubes smaller than our pinkies than promise smooth and soft, shiny wrinkle and acne free complexion. Our skin is not only the biggest organ of our body but also very necessary one. It absorbs very easily what we put on it. Unfortunately among long lists of ingredients we will find small number of beneficial and good for our body components.</p>
+                
+				<hr>
+            </div>
+        </div>
+
+        </div>
+        </main>
+</body></html>
